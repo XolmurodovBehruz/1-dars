@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+}
+body
+{
+    background-color: darkgray;
+    justify-content: center;
+}
+.box-1
+{
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-2
+{
+    width: 400px;
+    height: 50px;
+    border: 7px solid yellow;
+    border-radius: 25px;
+    padding: 7px;
+}
+.box-3
+{
+    background-color: rgb(50, 42, 165);
+    width: 20%;
+    height: 22px;
+    border-radius: 11px;
+    animation-name: Behruz;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 10;
+}
+@keyframes Behruz 
+{
+    0% {
+        width: 20%;
+    }
+    10% {
+        width: 100%;
+    }
+    20% {
+        background-color: chartreuse;
+    }
+    30% {
+        background-color: tomato;
+    }
+    40% {
+        background-color: darkblue;
+    }
+    50% {
+        background-color: darkred;
+    }
+}
+.box-4 a 
+{
+    color: rgb(2, 2, 2);
+    margin-left: 97%;
+    animation-name: Farhod;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 10;
+    animation-fill-mode: forwards;
+}
+@keyframes Farhod 
+{
+    0% {
+        background-color: brown;
+    }
+    10% {
+        background-color: blueviolet;
+    }
+}
